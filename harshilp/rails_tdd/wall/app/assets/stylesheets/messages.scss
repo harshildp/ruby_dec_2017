@@ -1,0 +1,50 @@
+// Place all the styles related to the Messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.message{
+    width:95%;
+    padding:10px;
+    border:1px solid black;
+    margin-top:10px;
+}
+.comment{
+    width:82%;
+    margin:auto;
+    border-bottom:1px solid black;
+    margin-bottom:5px;
+}
+
+p{
+    padding-left:10px;
+}
+form{
+    line-height:75px;
+    width:95%;
+}
+textarea{
+    height:60px;
+    width:75%;
+    vertical-align:middle;
+}
+button{
+    vertical-align:middle;
+    width:15%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border:none;    
+    margin-left:5%;
+    background-color:cadetblue;
+}
+#sign{
+    background-color:darkgreen;
+    color:white;
+}
+input{
+    height:30px;
+    border-radius: 2px;
+    border:none;
+    border:1px purple solid;
+}
+.error{
+    color:darkred;
+}
